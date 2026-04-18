@@ -1,7 +1,9 @@
 from django.urls import path
-from .views import books_api, ask_ai
+from .views import get_books, add_book, ask_ai, home
 
 urlpatterns = [
-    path('books/', books_api),
+    path('', home),   
+    path('books/', get_books),
+    path('add/', add_book),
     path('ask/', ask_ai),
 ]

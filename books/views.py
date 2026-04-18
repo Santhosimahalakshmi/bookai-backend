@@ -63,3 +63,8 @@ def ask_ai(request):
 
         except Exception as e:
             return JsonResponse({"error": str(e)}, status=500)
+        
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"message": "Backend is running 🚀"})
