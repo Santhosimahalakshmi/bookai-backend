@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-l(3dxzgf7)n(p_13*gp2=u_bnfwzhv09lw=6#$)@#_a)m#1%s1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bookai-backend-2.onrender.com']
 
 
 # Application definition
